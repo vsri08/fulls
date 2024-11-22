@@ -1,5 +1,5 @@
 
-num = 7
+num = 5
 factorial = 1
 
 if num < 0:
