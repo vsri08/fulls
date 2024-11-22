@@ -1,4 +1,5 @@
 print('hello world')
-a=int(input('enter val 1'))
-b=int(input('enter val 2'))
-print('SUM IS',a+b)
+width, height = map(int, input().split())
+def rectanglePerimeter(width, height):
+   return ((width + height)*2)
+print(rectanglePerimeter(width, height))
